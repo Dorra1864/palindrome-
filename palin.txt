@@ -1,0 +1,15 @@
+algo palindrome 
+var  c : chaine de caractere 
+début
+ecrire ("variable,c")
+lire (c)
+si c=length[1] alors 
+ecrire ('palindrom')
+sinon ecrire ('erreur')
+fin si 
+pour i allant de 1 a n faire 
+si c[1]=c[n] alors 
+i++ et n=n-1
+fin si 
+fin pour 
+fin
